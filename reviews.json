@@ -1,0 +1,81 @@
+[
+    {
+      "title": "Black Panther",
+      "url": "./images/black-panther.jpg",
+      "reviewComment": "Black Panther is a groundbreaking superhero film with stunning visuals, compelling characters, and a powerful cultural impact.",
+      "releaseDate": "2018",
+      "type": "movie",
+      "rating": 8,
+      "totalRating": 8,
+      "genre": [
+        "Spy"
+      ]
+    } ,
+    {
+        "title": "Captain Marvel",
+        "url": "./images/captain-marvel.jpg",
+        "reviewComment": "Captain Marvel offers a thrilling origin story with strong performances, stunning visuals, and an empowering message, despite some predictable plot points.",
+        "releaseDate": "2019",
+        "type": "movie",
+        "rating": 9,
+        "totalRating": 9,
+        "genre": [
+          "War"
+        ]
+      } ,
+      {
+        "title": "Iron man 2",
+        "url": "./images/iron man.jpg",
+        "reviewComment": "Iron Man 2 delivers action-packed sequences and charismatic performances, but its crowded plot weakens the overall impact.",
+        "releaseDate": "2010",
+        "type": "movie",
+        "rating": 5,
+        "totalRating": 5,
+        "genre": [
+          "History"
+        ]
+      },
+      {
+        "title": "Captain America winter soldier",
+        "url": "./images/captain america.jpg",
+        "reviewComment": "Captain America: The Winter Soldieris a thrilling blend of action, espionage, and character development, redefining superhero movies with its depth.",
+        "releaseDate": "2014",
+        "type": "movie",
+        "rating": 7,
+        "totalRating": 7,
+        "genre": [
+          "Espionage"
+        ]
+      },
+      {
+        "title": "Captain America civil war",
+        "url": "./images/captain america.jpg",
+        "reviewComment": "Captain America: Civil War delivers thrilling action, deep character conflicts, and a compelling narrative, making it a must-watch superhero film.",
+        "releaseDate": "2016",
+        "type": "movie",
+        "rating": 8,
+        "totalRating": 8,
+        "genre": [
+          "Romance"
+        ]
+      },
+      {
+        "title": "Spiderman homecoming",
+        "url": "./images/spiderman.jpg",
+        "reviewComment": "Spider-Man: Homecoming is a refreshing, fun take on the iconic hero, blending high school struggles with thrilling superhero action seamlessly. ",
+        "releaseDate": "2017",
+        "type": "movie",
+        "rating": 4,
+        "totalRating": 4,
+        "genre": [
+          "Drama"
+        ]
+      }
+
+
+
+      
+
+
+  ]
+  

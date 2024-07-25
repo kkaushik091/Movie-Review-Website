@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+  background-color: #f4f4f9; /* Light grey background for a modern look */
+  font-family: 'Arial', sans-serif; /* Better readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+#mainHeader {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3e50; /* Dark background for contrast */
+  color: #fff; /* White text for readability */
+  border-bottom: 5px solid #e74c3c; /* Stylish bottom border */
+}
+
+#header {
+  font-size: 36px; /* Larger header font size */
+  margin: 0;
+  font-weight: bold;
+}
+
+#tagLine {
+  font-size: 18px; /* Slightly larger tagline font size */
+  margin: 5px 0;
+  color: #ecf0f1; /* Light color for tagline */
+}
+
+/* Main Content Styles */
+#mainContent {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+/* Menu Bar Styles */
+#menuBar {
+  background-color: #34495e; /* Darker background for menu bar */
+  width: 15%;
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+#menuBar div {
+  margin-bottom: 20px;
+  color: #fff; /* White text in the menu bar */
+}
+
+#genreFilter label,
+#dateFilter label {
+  display: block;
+  margin: 10px 0;
+  color: #f1c40f; /* Light yellow text */
+}
+
+#rating button {
+  background-color: #e67e22; /* Orange button background */
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#rating button:hover {
+  background-color: #d35400; /* Darker orange on hover */
+}
+
+/* Main Card Styles */
+#mainCard {
+  background-color: #fff;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap; /* Wrap cards to fit container */
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Styles */
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 280px; /* Fixed width for consistency */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Movie Card Styles */
+.movie-card {
+  font-size: 20px;
+  background-color: #3498db; /* Blue background */
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card img {
+  border-radius: 10px;
+}
+
+/* Footer Styles */
+#footerBar {
+  background-color: #2c3e50;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff; /* White text */
+  border-top: 5px solid #e74c3c; /* Red top border */
+}
+
+/* Reset and Back to Top Buttons */
+#resetButton, #backToTop {
+  background-color: #f39c12; /* Orange background */
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#resetButton:hover, #backToTop:hover {
+  background-color: #e67e22; /* Darker orange on hover */
+}
+
+#backToTop {
+  background-color: #3498db; /* Blue background */
+}
+
+#backToTop:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
